@@ -1,0 +1,133 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .hero {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg-descktop.jpg");
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-bd-descktop-2x.jpg");
+    }
+  }
+  .hero-headline {
+    margin-bottom: 48px;
+    max-width: 496px;
+  }
+  .header-address-list {
+    flex-direction: row;
+  }
+  .header-address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .header-list {
+    margin-right: 321px;
+  }
+  .header-logo {
+    margin-right: 70px;
+  }
+  .header-address-item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantages-item {
+    width: calc((100% - 48px) / 4);
+  }
+  .advantages-list {
+    gap: 0 24px;
+  }
+
+  .advantages-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .advantages-list {
+    flex-wrap: nowrap;
+  }
+  .advantages-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    height: 112px;
+  }
+  .advantages-description {
+    font-weight: 400;
+  }
+
+  /* --- SERVICES SECTION ---- */
+
+  .services {
+    display: block;
+    padding-bottom: 120px;
+  }
+  .services-title {
+    margin-bottom: 72px;
+  }
+  .services-list {
+    display: flex;
+  }
+  .services-item {
+    max-width: 360px;
+    margin-right: 24px;
+  }
+  .services-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  .services-item-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* --- TEAM SECTION ---- */
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list {
+    column-gap: 24px;
+    flex-wrap: nowrap;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+  .footer .container {
+    justify-content: flex-start;
+    gap: 0;
+    text-align: left;
+  }
+  .footer-social-media {
+    margin-right: 80px;
+  }
+  .footer-info {
+    margin-right: 120px;
+  }
+}

@@ -1,0 +1,34 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+  .header-link {
+    font-size: 36px;
+  }
+  .header-list {
+    padding-bottom: 284px;
+  }
+  .header-address-link {
+    font-size: 36px;
+  }
+  .header-address-link {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.1;
+  }
+  .email {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .modal {
+    width: 392px;
+  }
+  .modal-form {
+    font-size: 12px;
+  }
+  .modal-submit-button {
+    min-width: 169px;
+  }
+}
