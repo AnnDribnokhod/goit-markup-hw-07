@@ -16,6 +16,9 @@
     font-size: 34px;
     line-height: 1.1;
   }
+  .customers-item {
+    width: 190рх;
+  }
   .email {
     font-style: normal;
     font-weight: 500;

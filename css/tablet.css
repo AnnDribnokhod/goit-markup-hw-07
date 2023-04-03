@@ -66,9 +66,6 @@
     order: 0;
   }
 
-  .current {
-    color: #404bbf;
-  }
   .current::after {
     content: "";
     display: block;
