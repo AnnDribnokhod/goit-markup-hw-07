@@ -147,18 +147,17 @@
     padding-right: 0;
     row-gap: 0;
   }
-  }
+
   .filter-item-btn {
     padding: 12px 24px;
   }
   .cards-list {
     column-gap: 24px;
-row-gap: 72px;
-justify-content: unset;
+    row-gap: 72px;
+    justify-content: unset;
   }
   .cards-item {
     max-width: 356px;
-
   }
   /* --- FOOTER---- */
 
