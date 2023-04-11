@@ -130,7 +130,14 @@
     width: calc((100% - 120px) / 6);
     height: 88px;
   }
-
+  /* --- PORTFOLIO---- */
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  .filter-list {
+    margin-bottom: 72pxpx;
+  }
   /* --- FOOTER---- */
 
   .footer .container {

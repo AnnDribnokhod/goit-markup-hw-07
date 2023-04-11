@@ -438,26 +438,24 @@ body {
 /* --- PORTFOLIO SECTION ---- */
 
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
-.portfolio-title {
-}
+
 .filter-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
+  justify-content: flex-start;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 24px;
+  padding-right: 24px;
 }
-.filter-item {
-  margin-right: 24px;
-}
-.filter-item:last-child {
-  margin-right: 0;
-}
+
 .filter-item-btn {
   background-color: var(--filter-btn-bg-color);
   border: 1px solid #e7e9fc;
-  padding: 12px 24px;
+  padding: 8px 16px;
   border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
@@ -481,11 +479,11 @@ body {
 .cards-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 48px;
 }
 .cards-item {
-  margin-right: 24px;
-  margin-bottom: 48px;
-  max-width: 360px;
+  max-width: 100%;
   background-color: var(--cards-item-color);
 }
 .cards-item-link {
@@ -496,12 +494,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.cards-item:nth-child(3n) {
-  margin-right: 0;
-}
-.cards-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
+
 .cards-item-content {
   padding: 32px 16px;
   border-right: var(--cards-item-border);

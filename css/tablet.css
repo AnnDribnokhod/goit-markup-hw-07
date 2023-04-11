@@ -135,7 +135,31 @@
     width: calc((100% - 48px) / 3);
     height: 88px;
   }
+  /* --- PORTFOLIO---- */
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .filter-list {
+    justify-content: center;
+    margin-bottom: 64px;
+    flex-wrap: nowrap;
+    padding-right: 0;
+    row-gap: 0;
+  }
+  }
+  .filter-item-btn {
+    padding: 12px 24px;
+  }
+  .cards-list {
+    column-gap: 24px;
+row-gap: 72px;
+justify-content: unset;
+  }
+  .cards-item {
+    max-width: 356px;
 
+  }
   /* --- FOOTER---- */
 
   .footer .container {
